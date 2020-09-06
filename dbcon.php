@@ -1,10 +1,16 @@
 <?php
 
 
-    $server = 'localhost';
-    $user = 'root';
-    $password = '';
-    $db = 'coronadb';
+    // $server = 'localhost';
+    // $user = 'root';
+    // $password = '';
+    // $db = 'coronadb';
+
+    $server = 'remotemysql.com';
+    $user = 'Br4b5N21iw';
+    $password = 'oIZHEhX21A';
+    $db = 'Br4b5N21iw';
+
 
     $con = mysqli_connect($server,$user,$password,$db);
 
