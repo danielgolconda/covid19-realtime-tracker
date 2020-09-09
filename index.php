@@ -222,21 +222,21 @@
             <div class = "row">
                <div class = "col-lg-8 offset-lg-12 col-12">
                   <form action = "" method = "POST">
-                     <div class="form-group">
-                        <label>Name</label>
+                     <div class="form-group required">
+                        <label class = "control-label">Name</label>
                         <input type="text" class="form-control" name = "username"  placeholder="Enter Your Name" required>
                      </div>
-                     <div class="form-group">
-                        <label>Mobile No.</label>
+                     <div class="form-group required">
+                        <label class = "control-label">Mobile No</label>
                         <input type="number" class="form-control" name = "mobile"  placeholder="Enter Your Number" required>
                      </div>
-                     <div class="form-group">
-                        <label>Email address</label>
+                     <div class="form-group required">
+                        <label class = "control-label">Email address</label>
                         <input type="email" class="form-control" name = "email" placeholder="name@example.com" required autocomplete="off">
                      </div>
-                     <div class="form-group">
-                        <label>Describe your symptoms</label>
-                        <textarea class="form-control" name = "message" rows="3"></textarea>
+                     <div class="form-group required">
+                        <label class = "control-label">Describe your symptoms</label>
+                        <textarea class="form-control" name = "message" rows="3" required></textarea>
                      </div>
 
                      <button type = "submit" class = "btn btn-primary" name = "submit">Submit</button>

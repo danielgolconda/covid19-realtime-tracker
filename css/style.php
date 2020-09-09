@@ -67,6 +67,11 @@
 		}
 	}
 
+	.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+	}
+
 	.corona_update h3 {
 			color:#ff3333;
 	}
