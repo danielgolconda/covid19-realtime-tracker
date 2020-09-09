@@ -127,7 +127,7 @@
                   </figure>
                </div>
             </div>
-         </div>
+          </div> 
       </div>
 
       <!-- Prevention --> 
